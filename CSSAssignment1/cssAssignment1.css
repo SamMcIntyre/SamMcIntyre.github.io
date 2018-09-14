@@ -1,0 +1,67 @@
+body{
+  background-color: #78AA44;
+}
+
+h3.title{
+  background-color: #AAAAAA;
+  width: 200px;
+  margin: auto;
+  text-align: center;
+  border: 8px solid #FDF851;
+  border-radius: 5px;
+}
+
+ul.linkList{
+  text-align: center;
+  padding-left:130px;
+  padding-right:130px;
+}
+
+li.linkBoxes{
+  display: inline;
+  float: none;
+  background-color: #BBBADD;
+  margin: 5px;
+  border: 2px dotted #ED3833;
+  padding: 5px;
+}
+
+div.textArea{
+  text-align: center;
+  margin: auto;
+  margin-top: 65px;
+  background-color: #CCCDDD;
+  border: 90px solid #ABC9BC;
+  border-left-width: 45px;
+  border-right-width: 45px;
+  max-width: 500;
+}
+
+p.text{
+  text-shadow: 1px .5px #000000;
+  font-style: italic;
+  letter-spacing: 1.5px;
+  word-spacing: 2px;
+  line-height: 15px;
+}
+
+h2.learnMore{
+  text-align: center;
+}
+
+div:hover{
+  background-color: #FF0000;
+  border-color: #FF0000;
+}
+
+a:hover{
+  color: #FF7F00;
+}
+/*border-radius
+margin-left: auto;
+margin-right: auto;
+
+
+
+260-55-45-55-65=
+*/
