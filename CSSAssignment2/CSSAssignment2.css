@@ -1,0 +1,46 @@
+table{
+  border: 10px ridge #73F454;
+  border-spacing: 5px 20px;
+  align: center;
+  margin: auto;
+}
+
+td, th{
+  text-align:center;
+  border: 2px solid #000000;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+th{
+  font-style: italic;
+  border-bottom-width: 10px;
+}
+
+#berries{
+  background-color: #F5A540;
+  border: 5px dotted #2046F5;
+  text-align: left;
+  list-style-type: upper-roman;
+}
+
+#italianFoods{
+  text-align: left;
+}
+
+#placesToVisit{
+  background-color: #ED3833;
+  border: 5px dashed #39811D;
+  text-align: left;
+  list-style-type: circle;
+}
+
+.odd:hover{
+  background-color: #BBBBEE;
+}
+
+.even:hover{
+  background-color: #77DDDD;
+}
