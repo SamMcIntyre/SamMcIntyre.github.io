@@ -1,0 +1,62 @@
+
+body{
+  background-image: url("Images/globeBG.png"), url("Images/corkboardBG.jpg");
+  background-repeat: no-repeat, repeat;
+  background-attachment: fixed, fixed;
+  background-position: bottom right, top;
+}
+
+#header{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  background-color: #18E5B2;
+  border: 5px solid #000000;
+  border-radius: 3px;
+}
+
+#pictures{
+  text-align: center;
+}
+
+.pictFrame{
+  width: 400px;
+  height: 280px;
+  background-color: #E56AA5;
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 15px;
+}
+
+.lefted{
+  display: inline-block;
+  float: left;
+}
+
+.righted{
+  display: inline-block;
+  float: right;
+}
+
+.centered{
+  display: inline-block;
+}
+
+img{
+  width: 350px;
+  height: 230px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figure{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p{
+  color: #A6000E;
+  font-weight: bolder;
+  text-align: center;
+}
