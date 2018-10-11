@@ -1,0 +1,84 @@
+<html>
+  <head>
+    <title>Forms</title>
+  </head>
+
+  <body>
+
+    <form action="" method="get">
+      <p>What are your thoughts on sausages?</p>
+      <textarea name="thoughts" rows="5" cols="10">type here...</textarea>
+    </form>
+
+    <hr />
+
+    <form action="" method="get">
+      <p>What is your absolute favorite sausage of those listed below?
+        <br />
+        <input type="radio" name="faveSausage"
+          value="frankfurter" checked="checked" /> Frankfurter(hotdog)
+        <input type="radio" name="faveSausage" value="bratwurst" /> Bratwurst
+        <input type="radio" name="faveSausage" value="pepperoni" /> Pepperoni
+        <input type="radio" name="faveSausage" value="salami" /> Salami
+        <input type="radio" name="faveSausage" value="bologna" /> Bologna
+        <input type="radio" name="faveSausage" value="chorizo" /> Chorizo
+        <input type="radio" name="faveSausage" value="breakfast" /> Breakfast
+        <input type="radio" name="faveSausage" value="kielbasa" /> Kielbasa
+      </p>
+    </form>
+
+    <hr />
+
+    <form action="" method="get">
+      <p>Which of these exotic sausages would you be most willing to try?</p>
+      <select name="exoticSausage">
+        <option value="">select one...</option>
+        <option value="bierwurst">Bierwurst</option>
+        <option value="bockwurst">Bockwurst</option>
+        <option value="brühwurst">Brühwurst</option>
+        <option value="knipp">Knipp</option>
+        <option value="pinkel">Pinkel</option>
+        <option value="debrecener">Debrecener</option>
+        <option value="botillo">Botillo</option>
+        <option value="potatiskorv">Potatiskorv</option>
+        <option value="landjäger">Landjäger</option>
+        <option value="snausage">Snausage</option>
+      </select>
+    </form>
+
+    <hr />
+    
+    <form action="" method="get">
+      <p>What condiments do you put on your hotdog?</p>
+      <select name="condiments" size="10" multiple="multiple">
+        <option value="ketchup" selected="selected">Ketchup</option>
+        <option value="relish">Relish</option>
+        <option value="mustard" selected="selected">Mustard</option>
+        <option value="sauerkraut">Sauerkraut</option>
+        <option value="chili">Chili</option>
+        <option value="onions">Onions</option>
+        <option value="slaw">Slaw</option>
+        <option value="jalapeños">Jalapeños</option>
+        <option value="cheese">Cheese(any kind)</option>
+        <option value="beans">Beans</option>
+      </select>
+    </form>
+
+    <fieldset>
+      <legend>Subscribe for more?</legend>
+      <label>Email
+        <input type="text" name="email">
+      </label>
+      <br />
+      <input id="positveSub" type="radio" name="feedbackAndSub" value="posSub">
+      <label for="positveSub">I love sausage and want to stay updated!</label>
+      <br />
+      <input id="positive" type="radio" name="feedbackAndSub" value="posNone">
+      <label for="positive">I like sausage but please do not contact me.</label>
+      <br />
+      <input id="negative" type="radio" name="feedbackAndSub" value="negNone">
+      <label for="negative">I hate you and sausage. Stay away.</label>
+    </fieldset>
+
+  </body>
+</html>
