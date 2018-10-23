@@ -1,0 +1,83 @@
+
+
+* {
+  font: Palatino;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+body{
+  background-image: url("Images/spaceBG.png")
+}
+
+#nav, .feature, .article, #footer, .pictFrame {
+  background-color: #000000;
+  margin-top: 20px;
+  padding: 5px 0px;
+}
+
+.article {
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.pictFrame{
+  align-content: center;
+  height: 300px;
+}
+
+#navList{
+  position: relative;
+  right: 25px;
+}
+
+#navItem{
+  display: inline;
+  padding: 5px;
+  background-color: #000000;
+  border: 2px outset #FFFFFF;
+}
+
+.imgGen{
+  max-width: 280px;
+  max-height: 250px;
+  margin-top: 10px;
+}
+
+#sluhAstroLogo{
+  width: 150px;
+  height: 130px;
+}
+
+#factTable{
+  text-align: center;
+  margin: auto;
+  border: 10px groove #FFFFFF;
+}
+
+th, td{
+  text-align:center;
+  border: 2px solid #FFFFFF;
+  padding: 10px 5px;
+}
+
+th{
+  font-style: italic;
+}
+
+tr:hover{
+  background-color: #A9A9A9;
+}
+
+#defList{
+  list-style-type: circle;
+}
+
+dt{
+  text-align: left;
+  font-style: italic;
+}
+
+dd{
+  text-align: left;
+}
