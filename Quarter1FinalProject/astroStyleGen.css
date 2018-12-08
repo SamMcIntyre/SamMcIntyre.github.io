@@ -18,6 +18,11 @@ body{
 
 .article {
   height: 300px;
+  overflow-y: scroll;
+}
+
+.article::-webkit-scrollbar {
+    display: none;
 }
 
 .pictFrame{
