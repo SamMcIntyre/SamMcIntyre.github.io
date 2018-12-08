@@ -18,7 +18,6 @@ body{
 
 .article {
   height: 300px;
-  overflow-y: scroll;
 }
 
 .pictFrame{
