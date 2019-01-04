@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Review</title>
+    <link href="960_12_col.css" type="text/css" rel="stylesheet" />
+    <link href="calcStyleGen.css" type="text/css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container_12 clearfix">
+      <div id="header" class="grid_12">
+        <h1 id="title">Review</h1>
+        <div id="nav">
+          <ul id="navList">
+            <li id="navItem"><a href="calculusHome.html">Home</a></li>
+            <li id="navItem"><a href="calculusReview.html">Review</a></li>
+            <li id="navItem"><a href="calcQuickRef.html">Reference</a></li>
+            <li id="navItem"><a href="">Practice</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="review" class="review grid_9">
+        <div id="s1" class="section">
+          <h3><u>Section 1: Limits</u></h3>
+          <div id="s1.notation">
+            <h5>Basic Limit Notation: <img id="s1-01-01" class="equation"
+              src="Images/Eqtns/s1-01-01.png" alt="limit notation" /></h5>
+          </div>
+
+          <hr class="sectBreak" />
+
+          <div id="s1.basicLimits" class="topic">
+            <h5>Some Basic Limits:</h5>
+            <ul class="theorem">
+              <li>Let:
+                <ul class="axioms">
+                  <li>b and c be real numbers</li>
+                  <li>n be a positive integer</li>
+                </ul>
+              </li>
+              <li>Then:
+                <ol class="conclusion">
+                  <li>Scalar Multiple:
+                    <img id=s1-02-01 class="equation"
+                      src="Images/Eqtns/s1-02-01.png" alt="Scalar Mult. Lim"/>
+                  </li>
+                  <li>Sum or Difference:
+                    <img id=s1-02-02 class="equation"
+                      src="Images/Eqtns/s1-02-02.png" alt="Sum/Diff Lim"/>
+                  </li>
+                  <li>Product:
+                    <img id=s1-02-03 class="equation"
+                      src="Images/Eqtns/s1-02-03.png" alt="Product Lim"/>
+                  </li>
+                  <li>Quotient:
+                    <img id=s1-02-04 class="equation"
+                      src="Images/Eqtns/s1-02-04.png" alt="Quotient Lim"/>
+                  </li>
+                  <li>Power:
+                    <img id=s1-02-05 class="equation"
+                      src="Images/Eqtns/s1-02-05.png" alt="Power Lim"/>
+                  </li>
+                </ol>
+              </li>
+            </ul>
+          </div>
+
+          <hr class="sectBreak" />
+
+          <div id="s1.limitTh" class="topic">
+            <h5>Polynomial, Rational, and Radical Limit Theorems:</h5>
+            <ul class="theorem">
+              <li>If:
+                <ul class="axioms">
+                  <li>p is a polynomial function p(x)</li>
+                  <li>c is a real number</li>
+                </ul>
+              </li>
+              <li>Then:
+                <ul class="conclusion">
+                  <img id="s1-03-01" class="equation"
+                    src="Images/Eqtns/s1-03-01.png" alt="Poly Lim Th."/>
+                </ul>
+              </li>
+            </ul>
+            <ul class="theorem">
+              <li>If:
+                <ul class="axioms">
+                  <li>r is a rational function r(x) = p(x)/q(x)</li>
+                  <li>c is a real number</li>
+                  <li>q(c) ≠ 0</li>
+                </ul>
+              </li>
+              <li>Then:
+                <ul class="conclusion">
+                  <img id="s1-03-02" class="equation"
+                    src="Images/Eqtns/s1-03-02.png" alt="Rat Lim Th."/>
+                </ul>
+              </li>
+            </ul>
+            <ul class="theorem">
+              <li>If:
+                <ul class="axioms">
+                  <li>n is a positive integer</li>
+                  <li>c is a real number</li>
+                  <li>valid for all c when n is odd</li>
+                  <li>valid for c > 0 when n is even</li>
+                </ul>
+              </li>
+              <li>Then:
+                <ul class="conclusion">
+                  <img id="s1-03-03" class="equation"
+                    src="Images/Eqtns/s1-03-03.png" alt="Rad Lim Th."/>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+          <hr class="sectBreak" />
+
+          <div id="s1.findingLimits" class="section">
+            <h5>Strategies for Finding Limits</h5>
+            simply substitute
+            that one method
+            dividing out technique
+            rationalizing technique
+
+            Assume we are trying to find the limit of some function f(x)
+            as x approaches c.
+
+            First, if f is some function, say a polynomial, which allows for
+            direct substitution, then simply plug c in for x. This only won't
+            work when c is an exception on f, like when f is piecewise and c is
+            on a boundry. If this is the case then find the the one-sided limits
+            as x approaches c from the left and right and compare them. If they
+            turn out to be equal, then the limit is their value. If they are
+            different, then the limit fails to exist. An example problem and
+            solution is shown below:
+
+            --example of peicewise limit--
+
+            If f is some rational function where f(c) = 0/0, then we may use
+            the Dividing Out Technique shown below:
+
+            ---example of dividing out---
+
+            If f involves a radical in the numerator and f(c) = 0/0, then we
+            may rationalize the numerator using the Rationalizing Technique:
+
+            ---example of rationalizing technique
+          </div>
+
+          <hr class="sectBreak" />
+
+          <div id="s1.squeezeTheorem" class="section">
+            <h5>Squeeze Theorem</h5>
+            <ul class="theorem">
+              <li>If:
+                <ul class="axioms">
+                  <li>h(x) ≤ f(x) ≤ g(x) for all x in an open interval
+                    containing c, except possibly at c itself.</li>
+                  <li><img id="s1-05-01" class="equation"
+                    src="Images/Eqtns/s1-05-01.png" alt="lim h = lim g"/></li>
+                </ul>
+              </li>
+              <li>Then:
+                <ul class="conclusion">
+                  <img id="s1-05-02" class="equation"
+                    src="Images/Eqtns/s1-05-02.png" alt="Squeeze Th."/>
+                </ul>
+              </li>
+            </ul>
+
+            Through Squeeze Theorem, we can conclude the following special limits:
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
